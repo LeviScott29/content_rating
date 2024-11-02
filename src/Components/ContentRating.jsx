@@ -16,7 +16,7 @@ class ContentRating extends Component {
         },
         handleDislike:() => {
             this.setState((prevstate) =>({
-                dislikes: prevstate.dislike +1
+                dislikes: prevstate.dislikes +1
             }));
 
         }
@@ -37,6 +37,7 @@ class ContentRating extends Component {
      </div>
     );
   }
+  
 }
 
 export default ContentRating;
